@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#3730a3" />
+    </linearGradient>
+    <filter id="shadow512" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad512)" />
+  <g filter="url(#shadow512)" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Bell body -->
+    <path d="M256 120c-58 0-104 46-104 104v70l-26 36h260l-26-36v-70c0-58-46-104-104-104z" />
+    <!-- Clapper -->
+    <path d="M224 350a32 32 0 0 0 64 0" />
+    <!-- Sound vibration marks -->
+    <path d="M125 140L88 177" />
+    <path d="M387 140l37 37" />
+    <!-- Checkmark inside bell -->
+    <path d="M218 240l28 28 54-54" stroke="#67e8f9" stroke-width="22" />
+  </g>
+</svg>
+

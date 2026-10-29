@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#1e1b4b" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="url(#bgGrad)" />
+  <!-- Alarm bell + checkmark icon -->
+  <g filter="url(#shadow)" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 46c-22.1 0-40 17.9-40 40v26l-10 14h100l-10-14V86c0-22.1-17.9-40-40-40z" />
+    <path d="M84 136a12 12 0 0 0 24 0" />
+    <path d="M46 54L32 68" />
+    <path d="M146 54l14 14" />
+    <!-- Checkmark inside bell -->
+    <path d="M82 92l10 10 20-20" stroke="#a5f3fc" stroke-width="8" />
+  </g>
+</svg>
+
